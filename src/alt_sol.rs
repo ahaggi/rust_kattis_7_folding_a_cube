@@ -3,6 +3,12 @@ use std::io;
 use std::io::{BufRead, BufReader};
 use std::time::Instant;
 
+
+/*
+    THIS SOL USES BITWISE-OPERATIONS, i.e. cube: Vec<u8>, where u8 represent a num with 8 bits which is a row
+    For an alternative approach, see the other file "alt_sol.rs", which uses cube: Vec<Vec<u8>> where every row is a vec.
+*/
+
 fn main() {
     let stdin = io::stdin();
 
