@@ -15,6 +15,7 @@ Input consists of **6** lines each containing **6** characters, describing the i
 
 There are precisely **6** occurrences of # indicating the unit squares. These form a connected component, meaning it is possible to reach any # from any other # without touching a . by making only horizontal and vertical movements. Furthermore, there is no **2 X 2** subsquare consisting of only #. That is, the pattern
 
+
 <pre>##
 ##
 </pre>
